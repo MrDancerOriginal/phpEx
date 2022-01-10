@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font: 11pt sans-serif
+}
+
+body>h1 {
+    margin: 0 0 0.5em 0;
+    font: 2em sans-serif;
+    background-color: #def
+}
+
+body>div {
+    padding: 2px
+}
+
+p {
+    margin-top: 0
+}
+
+#params {
+    margin: 1em 0;
+    font: 14px sans-serif
+}
+
+.panecontainer>p {
+    margin: 0;
+    border: 1px solid #bcd;
+    border-bottom: none;
+    padding: 1px 3px;
+    background: #def;
+    font: 14px sans-serif
+}
+
+.panecontainer>p+div {
+    margin: 0;
+    padding: 2px 0 2px 2px;
+    border: 1px solid #bcd;
+    border-top: none
+}
+
+.pane {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    min-height: 20em;
+    overflow: auto;
+    font: 12px monospace
+}
+
+#htmldiff {
+    color: gray
+}
+
+#htmldiff.onlyDeletions ins {
+    display: none
+}
+
+#htmldiff.onlyInsertions del {
+    display: none
+}
